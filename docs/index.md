@@ -44,11 +44,11 @@ The following tools and resources help you implement the processes in your data 
       <p>an open-source R package for anonymizing microdata and assessing disclosure risks to support the safe dissemination of confidential datasets.</p>
     </article>
   </a>
-  <a href="https://sdcpractice.readthedocs.io/en/latest/" class="VPLink link no-icon VPFeature">
+  <a href="https://github.com/worldbank/Spatial-Anonymization/" class="VPLink link no-icon VPFeature">
     <article class="box">
-      <div class="icon"><img src="/media/anon.png" alt="Anonymization Practice Guide" style="width: 70px; height: 60px;"></div>
-      <h2 class="title">An anonymization practice guide</h2>
-      <p>Documentation and guidance for using sdcMicro from command-line.</p>
+      <div class="icon"><img src="/media/geo_anon.png" alt="Spatial Anonymization (Python Package)" style="width: 70px; height: 60px;"></div>
+      <h2 class="title">Spatial Anonymization</h2>
+      <p>An open-source Python package for anonymizing GPS data. Protects against household re-identification when disseminating survey data with GPS coordinates.</p>
     </article>
   </a>
   <a href="https://worldbank.github.io/metadata-editor-docs/" class="VPLink link no-icon VPFeature">

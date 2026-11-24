@@ -7,9 +7,9 @@ Quick Reference Guide for Data Archivists — World Bank Group Chief Statisticia
 
 # Acknowledgements
 
-Version 2026-08 is a revision of Version 2019-04[^1], originally authored by Olivier Dupriez (World Bank) and subsequently updated by Diana Marcella Sanchez Castro and Matthew Welch (The World Bank). Their contributions to the guide's original structure, content, and conceptual framework are gratefully acknowledged.
+Version 2026-08 is a revision of Version 2019-04[^1], originally authored by Olivier Dupriez (World Bank) and subsequently updated by Diana Marcella Sanchez Castro and Matthew Welch (World Bank Group). Their contributions to the guide's original structure, content, and conceptual framework are gratefully acknowledged.
 
-This edition was revised and updated by Cathrine Machingauta and Mehmood Asghar. Key enhancements include:
+This edition was revised and updated by Cathrine Machingauta and Mehmood Asghar (World Bank Group). Key enhancements include:
 
 - Updated references to World Bank tools that have replaced tools mentioned in earlier versions.
 - Adoption of DDI-Codebook, now an ISO standard, replacing references to DDI 1.6 used in the original guide.
@@ -30,7 +30,9 @@ These updates reflect current tools, standards, and practices for data curation,
 
 [^1]: The Quick Reference Guide for Data Archivists. Publisher: The International Household Survey Network (IHSN). The World Bank, Development Data Group (DECDG) is a member of the IHSN Secretariat.
 
-The guide is a product of The World Bank Group Chief Statistician's Office - Development Data Group (DECDG). License: **CC BY 4.0**
+The guide is a product of The World Bank Group Chief Statistician's Office - Development Data Group (DECDG). 
+
+Citation: World Bank Group Chief Statistician's Office (DECDG). 2026. *Quick Reference Guide for Microdata Archivists: Documenting Data for Long-Term Preservation, Discovery, and Reuse*. Washington, DC: World Bank Group. CC BY 4.0.
 
 
 > **Disclaimer**
@@ -692,12 +694,14 @@ If the dataset is intended for public release, it must first be transformed into
 
 ### Resources to Check for PII and Apply Statistical Disclosure Control[^3] Measures
 
-- [How to search datasets for PII](https://poverty-action.org/sites/default/files/Guideline_How-to-Search-Datasets-for-PII.pdf)
-- [How to deidentify datasets](https://dimewiki.worldbank.org/De-identification)
+- [sdcMicro (R package for microdata anonymization)](https://sdctools.github.io/sdcMicro/)
+- [spatial-anonymization (Python package for GPS coordinate anonymization)](https://github.com/worldbank/Spatial-Anonymization/)
 - [An anonymization practice guide](https://sdcpractice.readthedocs.io/en/latest/)
 - [Introduction to the theory of anonymization for microdata](https://sdctheory.readthedocs.io/en/latest/)
 - [A guide to using the graphic user interface to sdcMicro](https://sdcappdocs.readthedocs.io/en/latest/)
 - [Introduction to Statistical Disclosure Control (SDC)](http://ihsn.org/sites/default/files/resources/ihsn-working-paper-007-Oct27.pdf)
+- [How to deidentify datasets](https://dimewiki.worldbank.org/De-identification)
+- [How to search datasets for PII](https://poverty-action.org/sites/default/files/Guideline_How-to-Search-Datasets-for-PII.pdf)
 
 ::: tip Suggestion
 If you are in the process of establishing a data archive and plan
@@ -1389,12 +1393,12 @@ An **independent review** of the metadata is highly recommended prior to publish
 
 ### I. Metadata Editor Assessment Tool
 
-The Metadata Editor is equipped with a built-in AI assisted metadata assessment tool to assess and improve project metadata when review is initiated. More information on the metadata review can be found in the documentation - see [Metadata reviewer.](https://worldbank.github.io/metadata-editor-docs/assess_metadata.html)
+The Metadata Editor is equipped with a built-in automated metadata assessment tool to assess and improve project metadata when review is initiated. More information on the metadata review can be found in the documentation - see [Metadata reviewer.](https://worldbank.github.io/metadata-editor-docs/assess_metadata.html)
 
 
 ### II. Microdata Documentation Quality Review Checklist and Feedback Form
 
-This checklist is designed to support the review of microdata documentation before publication, dissemination, or long-term preservation. It can be used to assess whether metadata prepared using the DDI-Codebook (DDI-C) and Dublin Core Metadata Initiative (DCMI) standards is complete, consistent, clear, and usable by data users, data catalogs, repositories, and AI-enabled discovery tools.
+This checklist is designed to support the review of microdata documentation before publication, dissemination, or long-term preservation. It can be used to assess whether metadata prepared using the DDI-Codebook (DDI-C) and Dublin Core Metadata Initiative (DCMI) standards is complete, consistent, clear, and usable by data users, data catalogs, repositories, and automated discovery tools.
 
 The checklist is organized around the main metadata sections commonly used to document microdata: **Document Description**, **Study Description**, **Data Files**, **Variables**, **Variable Groups**, and **External Resources**. A final section is included for reviewing the dataset landing page or repository record before publication. A downloadable, editable version is available <a href="/media/microdata-documentation-quality-review-checklist-checkboxes.docx" download="quality-review-checklist.docx">here</a>. 
 
@@ -1706,7 +1710,7 @@ This section replaces legacy media-focused checks and supports review of the onl
 | Searchability | Dataset can be discovered using title, country, year, topics, keywords, and other relevant metadata. | ☐ Yes ☐ No ☐ Not applicable |  | ☐ None ☐ Add ☐ Fix ☐ Check |
 | Persistent links | Stable URLs, persistent identifiers, or catalog links are provided where applicable. | ☐ Yes ☐ No ☐ Not applicable |  | ☐ None ☐ Add ☐ Fix ☐ Check |
 | Accessibility | Documents and catalog pages are readable, accessible, and usable by intended audiences. | ☐ Yes ☐ No ☐ Not applicable |  | ☐ None ☐ Fix ☐ Check |
-| AI readiness | Metadata is sufficiently descriptive and structured to support machine indexing, search, and AI-enabled discovery. | ☐ Yes ☐ No ☐ Not applicable |  | ☐ None ☐ Add ☐ Fix ☐ Check |
+| Automated process readiness | Metadata is sufficiently descriptive and structured to support machine indexing, search, and automated discovery. | ☐ Yes ☐ No ☐ Not applicable |  | ☐ None ☐ Add ☐ Fix ☐ Check |
 
 ---
 
