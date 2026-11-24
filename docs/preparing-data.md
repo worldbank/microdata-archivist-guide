@@ -523,8 +523,8 @@ If the dataset is intended for public release, it must first be transformed into
 - [Introduction to the theory of anonymization for microdata](https://sdctheory.readthedocs.io/en/latest/)
 - [A guide to using the graphic user interface to sdcMicro](https://sdcappdocs.readthedocs.io/en/latest/)
 - [Introduction to Statistical Disclosure Control (SDC)](http://ihsn.org/sites/default/files/resources/ihsn-working-paper-007-Oct27.pdf)
-- [How to deidentify datasets](https://dimewiki.worldbank.org/De-identification)
-- [How to search datasets for PII](https://poverty-action.org/sites/default/files/Guideline_How-to-Search-Datasets-for-PII.pdf)
+- [How to deidentify datasets (DIME Wiki)](https://dimewiki.worldbank.org/De-identification)
+- [How to search datasets for PII (poverty-action.org)](https://poverty-action.org/sites/default/files/Guideline_How-to-Search-Datasets-for-PII.pdf)
 
 ::: tip Suggestion
 If you are in the process of establishing a data archive and plan

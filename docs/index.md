@@ -34,7 +34,7 @@ features:
 
 ## Open Source Tools
 
-The following tools and resources help you implement the processes in your data documentation, preservation and dissemination workflow.
+The following open-source tools help you implement the processes in your data documentation, preservation and dissemination workflow.
 
 <div class="VPFeatures VPHomeFeatures">
   <a href="https://sdctools.github.io/sdcMicro/" class="VPLink link no-icon VPFeature">
